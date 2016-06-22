@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F8E3B01D1A3A2A00F75DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8E3AF1D1A3A2A00F75DC3 /* AppDelegate.swift */; };
+		C4F8E3B21D1A3A2A00F75DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8E3B11D1A3A2A00F75DC3 /* ViewController.swift */; };
+		C4F8E3B51D1A3A2A00F75DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8E3B31D1A3A2A00F75DC3 /* Main.storyboard */; };
+		C4F8E3B71D1A3A2A00F75DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F8E3B61D1A3A2A00F75DC3 /* Assets.xcassets */; };
+		C4F8E3BA1D1A3A2A00F75DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8E3B81D1A3A2A00F75DC3 /* LaunchScreen.storyboard */; };
+		C4F8E3C51D1A3A2A00F75DC3 /* My_First_App_NeuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8E3C41D1A3A2A00F75DC3 /* My_First_App_NeuTests.swift */; };
+		C4F8E3D01D1A3A2A00F75DC3 /* My_First_App_NeuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8E3CF1D1A3A2A00F75DC3 /* My_First_App_NeuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F8E3C11D1A3A2A00F75DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F8E3A41D1A3A2900F75DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F8E3AB1D1A3A2900F75DC3;
+			remoteInfo = "My First App Neu";
+		};
+		C4F8E3CC1D1A3A2A00F75DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F8E3A41D1A3A2900F75DC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F8E3AB1D1A3A2900F75DC3;
+			remoteInfo = "My First App Neu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F8E3AC1D1A3A2A00F75DC3 /* My First App Neu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My First App Neu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8E3AF1D1A3A2A00F75DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4F8E3B11D1A3A2A00F75DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4F8E3B41D1A3A2A00F75DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F8E3B61D1A3A2A00F75DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F8E3B91D1A3A2A00F75DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F8E3BB1D1A3A2A00F75DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F8E3C01D1A3A2A00F75DC3 /* My First App NeuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First App NeuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8E3C41D1A3A2A00F75DC3 /* My_First_App_NeuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_First_App_NeuTests.swift; sourceTree = "<group>"; };
+		C4F8E3C61D1A3A2A00F75DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F8E3CB1D1A3A2A00F75DC3 /* My First App NeuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My First App NeuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8E3CF1D1A3A2A00F75DC3 /* My_First_App_NeuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_First_App_NeuUITests.swift; sourceTree = "<group>"; };
+		C4F8E3D11D1A3A2A00F75DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F8E3A91D1A3A2900F75DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3BD1D1A3A2A00F75DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3C81D1A3A2A00F75DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F8E3A31D1A3A2900F75DC3 = {
+			isa = PBXGroup;
+			children = (
+				C4F8E3AE1D1A3A2A00F75DC3 /* My First App Neu */,
+				C4F8E3C31D1A3A2A00F75DC3 /* My First App NeuTests */,
+				C4F8E3CE1D1A3A2A00F75DC3 /* My First App NeuUITests */,
+				C4F8E3AD1D1A3A2A00F75DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F8E3AD1D1A3A2A00F75DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8E3AC1D1A3A2A00F75DC3 /* My First App Neu.app */,
+				C4F8E3C01D1A3A2A00F75DC3 /* My First App NeuTests.xctest */,
+				C4F8E3CB1D1A3A2A00F75DC3 /* My First App NeuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F8E3AE1D1A3A2A00F75DC3 /* My First App Neu */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8E3AF1D1A3A2A00F75DC3 /* AppDelegate.swift */,
+				C4F8E3B11D1A3A2A00F75DC3 /* ViewController.swift */,
+				C4F8E3B31D1A3A2A00F75DC3 /* Main.storyboard */,
+				C4F8E3B61D1A3A2A00F75DC3 /* Assets.xcassets */,
+				C4F8E3B81D1A3A2A00F75DC3 /* LaunchScreen.storyboard */,
+				C4F8E3BB1D1A3A2A00F75DC3 /* Info.plist */,
+			);
+			path = "My First App Neu";
+			sourceTree = "<group>";
+		};
+		C4F8E3C31D1A3A2A00F75DC3 /* My First App NeuTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8E3C41D1A3A2A00F75DC3 /* My_First_App_NeuTests.swift */,
+				C4F8E3C61D1A3A2A00F75DC3 /* Info.plist */,
+			);
+			path = "My First App NeuTests";
+			sourceTree = "<group>";
+		};
+		C4F8E3CE1D1A3A2A00F75DC3 /* My First App NeuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8E3CF1D1A3A2A00F75DC3 /* My_First_App_NeuUITests.swift */,
+				C4F8E3D11D1A3A2A00F75DC3 /* Info.plist */,
+			);
+			path = "My First App NeuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F8E3AB1D1A3A2900F75DC3 /* My First App Neu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F8E3D41D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App Neu" */;
+			buildPhases = (
+				C4F8E3A81D1A3A2900F75DC3 /* Sources */,
+				C4F8E3A91D1A3A2900F75DC3 /* Frameworks */,
+				C4F8E3AA1D1A3A2900F75DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My First App Neu";
+			productName = "My First App Neu";
+			productReference = C4F8E3AC1D1A3A2A00F75DC3 /* My First App Neu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F8E3BF1D1A3A2A00F75DC3 /* My First App NeuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F8E3D71D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App NeuTests" */;
+			buildPhases = (
+				C4F8E3BC1D1A3A2A00F75DC3 /* Sources */,
+				C4F8E3BD1D1A3A2A00F75DC3 /* Frameworks */,
+				C4F8E3BE1D1A3A2A00F75DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F8E3C21D1A3A2A00F75DC3 /* PBXTargetDependency */,
+			);
+			name = "My First App NeuTests";
+			productName = "My First App NeuTests";
+			productReference = C4F8E3C01D1A3A2A00F75DC3 /* My First App NeuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F8E3CA1D1A3A2A00F75DC3 /* My First App NeuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F8E3DA1D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App NeuUITests" */;
+			buildPhases = (
+				C4F8E3C71D1A3A2A00F75DC3 /* Sources */,
+				C4F8E3C81D1A3A2A00F75DC3 /* Frameworks */,
+				C4F8E3C91D1A3A2A00F75DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F8E3CD1D1A3A2A00F75DC3 /* PBXTargetDependency */,
+			);
+			name = "My First App NeuUITests";
+			productName = "My First App NeuUITests";
+			productReference = C4F8E3CB1D1A3A2A00F75DC3 /* My First App NeuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F8E3A41D1A3A2900F75DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = masterUNG;
+				TargetAttributes = {
+					C4F8E3AB1D1A3A2900F75DC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C4F8E3BF1D1A3A2A00F75DC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C4F8E3AB1D1A3A2900F75DC3;
+					};
+					C4F8E3CA1D1A3A2A00F75DC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C4F8E3AB1D1A3A2900F75DC3;
+					};
+				};
+			};
+			buildConfigurationList = C4F8E3A71D1A3A2900F75DC3 /* Build configuration list for PBXProject "My First App Neu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F8E3A31D1A3A2900F75DC3;
+			productRefGroup = C4F8E3AD1D1A3A2A00F75DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F8E3AB1D1A3A2900F75DC3 /* My First App Neu */,
+				C4F8E3BF1D1A3A2A00F75DC3 /* My First App NeuTests */,
+				C4F8E3CA1D1A3A2A00F75DC3 /* My First App NeuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F8E3AA1D1A3A2900F75DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8E3BA1D1A3A2A00F75DC3 /* LaunchScreen.storyboard in Resources */,
+				C4F8E3B71D1A3A2A00F75DC3 /* Assets.xcassets in Resources */,
+				C4F8E3B51D1A3A2A00F75DC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3BE1D1A3A2A00F75DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3C91D1A3A2A00F75DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F8E3A81D1A3A2900F75DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8E3B21D1A3A2A00F75DC3 /* ViewController.swift in Sources */,
+				C4F8E3B01D1A3A2A00F75DC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3BC1D1A3A2A00F75DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8E3C51D1A3A2A00F75DC3 /* My_First_App_NeuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8E3C71D1A3A2A00F75DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8E3D01D1A3A2A00F75DC3 /* My_First_App_NeuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F8E3C21D1A3A2A00F75DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F8E3AB1D1A3A2900F75DC3 /* My First App Neu */;
+			targetProxy = C4F8E3C11D1A3A2A00F75DC3 /* PBXContainerItemProxy */;
+		};
+		C4F8E3CD1D1A3A2A00F75DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F8E3AB1D1A3A2900F75DC3 /* My First App Neu */;
+			targetProxy = C4F8E3CC1D1A3A2A00F75DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F8E3B31D1A3A2A00F75DC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F8E3B41D1A3A2A00F75DC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F8E3B81D1A3A2A00F75DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F8E3B91D1A3A2A00F75DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F8E3D21D1A3A2A00F75DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4F8E3D31D1A3A2A00F75DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F8E3D51D1A3A2A00F75DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My First App Neu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-Neu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4F8E3D61D1A3A2A00F75DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My First App Neu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-Neu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4F8E3D81D1A3A2A00F75DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My First App NeuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-NeuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My First App Neu.app/My First App Neu";
+			};
+			name = Debug;
+		};
+		C4F8E3D91D1A3A2A00F75DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My First App NeuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-NeuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My First App Neu.app/My First App Neu";
+			};
+			name = Release;
+		};
+		C4F8E3DB1D1A3A2A00F75DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My First App NeuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-NeuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My First App Neu";
+			};
+			name = Debug;
+		};
+		C4F8E3DC1D1A3A2A00F75DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My First App NeuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.masterUNG.EWTC.My-First-App-NeuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My First App Neu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F8E3A71D1A3A2900F75DC3 /* Build configuration list for PBXProject "My First App Neu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8E3D21D1A3A2A00F75DC3 /* Debug */,
+				C4F8E3D31D1A3A2A00F75DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F8E3D41D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App Neu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8E3D51D1A3A2A00F75DC3 /* Debug */,
+				C4F8E3D61D1A3A2A00F75DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F8E3D71D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App NeuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8E3D81D1A3A2A00F75DC3 /* Debug */,
+				C4F8E3D91D1A3A2A00F75DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F8E3DA1D1A3A2A00F75DC3 /* Build configuration list for PBXNativeTarget "My First App NeuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8E3DB1D1A3A2A00F75DC3 /* Debug */,
+				C4F8E3DC1D1A3A2A00F75DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F8E3A41D1A3A2900F75DC3 /* Project object */;
+}
